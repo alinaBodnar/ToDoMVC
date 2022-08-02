@@ -1,0 +1,25 @@
+body{
+    font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80vh;
+    position:relative;
+}
+
+#root{
+    padding-top: 10vh;
+}
+
+.toDo-container{
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%), 0 25px 50px 0 rgb(0 0 0 / 10%);
+}
+
+h1{
+    display: inline-block;
+    position: relative;
+    left: 25%;
+    color: rgba(175, 47, 47, 0.15);
+    font-size: 100px!important;
+    font-weight: 100!important;
+}
